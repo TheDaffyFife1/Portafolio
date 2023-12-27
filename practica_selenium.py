@@ -47,7 +47,6 @@ from sqlalchemy import create_engine
 # In[24]:
 
 
-os.environ['GH_TOKEN'] = "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"
 #Almacenamiento de variables del scrapper
 original_data = pd.DataFrame() #Almacenamiento del link original
 driver = None #Webdriver 
